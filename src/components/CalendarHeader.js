@@ -20,10 +20,10 @@ export default function CalendarHeader() {
   return (
     <header className='px-4 py-2 flex items-center'>
         <img src={logo} alt="calendar" className='mr-2 w-12 h-12' />
-        <h1 className='mr-10 text-xl text-black-500 fond-bold'> 
+        <h1 className='mr-10 text-xl fond-bold'> 
             Takvim
         </h1>
-        <button onClick={handleReset} className="border rounded py-2 px-4 mr-5">
+        <button onClick={handleReset} className="border rounded py-2 px-4 mr-5 font-bold">
             Bugün
         </button>
         <button onClick={handlePrevMonth}>
