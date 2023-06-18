@@ -12,7 +12,7 @@ const labelsClasses = [
 
 export default function EventModel() {
   const { 
-    setShowEventModal: setShowEventModel, 
+    setShowEventModel, 
     daySelected, 
     dispatchCalEvent, 
     selectedEvent 
