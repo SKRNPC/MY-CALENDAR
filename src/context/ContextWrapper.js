@@ -20,6 +20,7 @@ function initEvents(){
     return parsedEvents 
 }
 
+
 export default function ContextWrapper(props) {
     const[monthIndex, setMonthIndex]= useState(dayjs().month())
     const[smallCalendarMonth, setSmallCalendarmonth]= useState(null)
